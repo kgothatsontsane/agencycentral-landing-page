@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-    basePath: '/agencycentral-landing-page',
+    basePath: '/agencycentral-landing-page/',
     assetPrefix: '/agencycentral-landing-page/',
     output: 'export',
     distDir: 'deployment',
