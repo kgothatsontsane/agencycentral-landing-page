@@ -38,7 +38,7 @@ export default function LandingPage() {
         <div className="container flex items-center justify-between h-16 px-4">
           <a href="/" className="flex items-center gap-2">
             <Image
-              src="./assets/agencycentral.svg"
+              src="/agencycentral-landing-page/assets/agencycentral.svg"
               alt="AgencyCentral logo"
               width={40}
               height={40}
