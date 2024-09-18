@@ -10,9 +10,6 @@ const nextConfig = {
  
   // Optional: Change the output directory `out` -> `dist`
   distDir: 'deployment',
-  images: {
-    unoptimized: false
-  },
 };
 
 export default nextConfig;
