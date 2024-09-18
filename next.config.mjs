@@ -3,6 +3,7 @@
 const isProduction = process.env.NODE_ENV === 'production';
 const nextConfig = {
     basePath: isProduction ? '/agencycentral-landing-page' : '',
+    assetPrefix: isProduction ? '/agencycentral-landing-page' : '',
     output: 'export',
     distDir: 'deployment',
     images: {
