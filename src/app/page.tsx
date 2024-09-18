@@ -182,7 +182,7 @@ export default function LandingPage() {
 
 
       <main>
-        <section className="h-screen flex items-center justify-center bg-[url('/assets/banner-image.jpeg')] bg-cover bg-center relative">
+        <section className="h-screen flex items-center justify-center bg-[url('/agencycentral-landing-page/assets/banner-image.jpeg')] bg-cover bg-center relative">
             <div className="absolute inset-0 bg-black/50 dark:bg-black/75"></div>
                 <motion.div
                       initial={{ opacity: 0, y: 20 }}
@@ -218,19 +218,19 @@ export default function LandingPage() {
                   title: "Media Storage", 
                   description: "Securely store and manage your media files. Our robust media storage solution ensures your assets are always accessible and protected.", 
                   icon: HardDrive,
-                  image: "/assets/media-storage.jpeg?height=200&width=400"
+                  image: "/agencycentral-landing-page/assets/media-storage.jpeg?height=200&width=400"
                 },
                 { 
                   title: "Project Management", 
                   description: "Streamline your workflow with our comprehensive project management system. Keep track of tasks, deadlines, and team collaboration all in one place.", 
                   icon: Briefcase,
-                    image: "/assets/project-management.jpeg?height=200&width=400"
+                    image: "/agencycentral-landing-page/assets/project-management.jpeg?height=200&width=400"
                 },
                 { 
                   title: "Role-based Access", 
                   description: "Ensure security and efficiency with customizable role-based access control. Define user permissions and protect sensitive information with ease.", 
                   icon: Users,
-                  image: "/assets/role-based-access.jpeg?height=200&width=400"
+                  image: "/agencycentral-landing-page/assets/role-based-access.jpeg?height=200&width=400"
                 }
               ].map((feature, index) => (
                 <motion.div
